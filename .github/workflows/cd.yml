@@ -23,8 +23,11 @@ jobs:
 
       - name: Build app
         run: npm run build
-  
+
   job_id:
+    name: Job ID
+    runs-on: ubuntu-latest
+
     steps:
     - id: 'auth'
       uses: 'google-github-actions/auth@v2'
