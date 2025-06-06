@@ -41,4 +41,4 @@ jobs:
         run: 'gcloud info'
 
       - name: Build and Push Docker Image
-        run: gcloud builds submit --tag us-central1-docker.pkg.dev/notely-462100/notely-ar-repo/my-image:latest .
+        run: gcloud builds submit /mnt/c/Users/LucasLD/learn-cicd-typescript-starter --tag us-central1-docker.pkg.dev/notely-462100/notely-ar-repo/my-image:latest
